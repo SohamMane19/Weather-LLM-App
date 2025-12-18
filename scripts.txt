@@ -1,0 +1,8 @@
+backend start- 
+source venv/bin/activate
+cd /backend
+uvicorn main:app --reload
+
+frontend start:
+cd /frontend
+npm start
